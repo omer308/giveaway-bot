@@ -1,0 +1,33 @@
+{
+    "name": "discord-giveawaybot",
+    "version": "0.1.10",
+    "description": "A Discord bot that gives games away.",
+    "private": false,
+    "author": "shukri.adams@gmail.com",
+    "license": "MIT",
+    "engines" : {
+        "node" : ">=0.7.x"
+    },
+    "scripts" : {
+        "start" : "node start",
+        "test" : "node tests/test"
+    },
+    "dependencies" : {
+        "cron" : "1.2.1",
+        "request": "2.81.0",
+        "request-promise-native": "1.0.4",
+        "fs-extra": "4.0.1",
+        "lokijs": "1.4.1",
+        "dateformat" : "2.0.0",
+        "winston": "2.4.0",
+        "minimist-string" : "1.0.2",
+        "winston-daily-rotate-file" : "1.7.2",
+        "jsonfile": "2.0.0",
+        "cheerio" : "1.0.0-rc.2",
+        "discord.js" : "11.3.2"
+    },
+    "devDependencies": {
+        "mocha": "3.2.0",
+        "glob": "7.1.1"
+    }
+}
